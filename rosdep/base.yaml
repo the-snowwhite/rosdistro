@@ -4129,6 +4129,9 @@ liblzma-dev:
   fedora: [xz-devel]
   nixos: [xz]
   ubuntu: [liblzma-dev]
+libmachinekit-hal-dev:
+  debian: [libmachinekit-hal-dev]
+  ubuntu: [libmachinekit-hal-dev]
 libmagick:
   arch: [imagemagick]
   debian: [libmagick++-dev]
@@ -6596,6 +6599,15 @@ lz4:
   rhel: [lz4-devel]
   slackware: [lz4]
   ubuntu: [liblz4-dev]
+machinekit-hal:
+  debian: [machinekit-hal]
+  ubuntu: [machinekit-hal]
+modmachinekit-hal-components:
+  debian: [modmachinekit-hal-components]
+  ubuntu: [modmachinekit-hal-components]
+modmachinekit-hal-drivers:
+  debian: [modmachinekit-hal-drivers]
+  ubuntu: [modmachinekit-hal-drivers]
 m4:
   arch: [m4]
   debian: [m4]
@@ -7401,6 +7413,12 @@ python-dev:
   ubuntu:
     '*': [python-dev]
     focal: [python2-dev]
+python3-machinekit-hal:
+  debian: [python3-machinekit-hal]
+  ubuntu: [python3-machinekit-hal]
+python3-libmachinekit-hal:
+  debian: [python3-libmachinekit-hal]
+  ubuntu: [python3-libmachinekit-hal]
 qemu-user-static:
   debian: [qemu-user-static]
   fedora: [qemu-user-static]
